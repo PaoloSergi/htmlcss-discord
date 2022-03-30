@@ -157,5 +157,13 @@ main section h2{
     margin: 30px 0 20px;
 }
 
+main section.unpair img{
+    float: right;
+}
+
+main section.unpair div{
+    float: left;
+}
+
 
 /* fine main */
