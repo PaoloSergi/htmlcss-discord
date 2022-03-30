@@ -45,6 +45,17 @@ nav section{
     height: 100%;
     width: 70%;
     float: left;
+    text-align: center;
+}
+
+nav section li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav section li a{
+    text-decoration: none;
+    color: white;
 }
 
 aside>a{
