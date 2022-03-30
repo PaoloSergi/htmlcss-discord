@@ -9,8 +9,13 @@
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.container p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
 /* header */
-header>nav, main, footer{
+header>nav, main>section, footer{
     padding: 0 15%;
 }
 
@@ -85,14 +90,9 @@ aside>a{
 }
 
 .jumboText h2{
-    font-size: 50px;
     margin-top: 100px;
     margin-bottom: 40px;
-}
-
-.jumboText p{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 50px;
 }
 
 .jumbotron .links a{
@@ -120,3 +120,42 @@ aside>a{
 }
 
 /* fine header */
+
+/* main */
+
+main{
+}
+
+main section{
+    position: relative;
+    padding: 100px 15%;
+    
+    /* debug */
+    /* background-color: yellow; */
+}
+
+main section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main section img{
+    float: left;
+    max-width: 70%;
+}
+
+main section div{
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+    float: right;
+    /* margin-left: 30px ; */
+}
+
+main section h2{
+    margin: 30px 0 20px;
+}
+
+
+/* fine main */
