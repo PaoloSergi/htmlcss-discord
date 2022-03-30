@@ -9,7 +9,8 @@
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-header, main, footer{
+/* header */
+header>nav, main, footer{
     padding: 0 15%;
 }
 
@@ -66,4 +67,31 @@ aside>a{
     border-radius: 20px;
     font-size: 15px;
     font-weight: bold;
+}
+
+/* fine header */
+
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 520px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron .jumboText{
+    max-width: 50%;
+    display: inline-block;
+}
+
+.jumboText h2{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.jumboText p{
+    font-size: 20px;
+    line-height: 30px;
 }
