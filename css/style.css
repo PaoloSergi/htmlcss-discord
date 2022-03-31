@@ -96,7 +96,7 @@ aside>a{
     font-size: 3.5vw;
 }
 
-.jumbotron .links a{
+.jumbotron .links a.white{
     display: inline-block;
     text-decoration: none;
     color: #23272a;
